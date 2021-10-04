@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html> lang="en-us"
-   <!--this is the structure of a comment block in html files 
+<!--this is the structure of a comment block in html files 
     everything in this structure is not consider part of any 
     connect of your web page 
 
@@ -13,64 +13,66 @@
    on the html tag has a parameter to indicating the languaje 
    of the text.
 -->
-   <head>
-       <!--this is a place where you can code supports for the browser
+
+<head>
+   <!--this is a place where you can code supports for the browser
         to use in interpreting the web file. the items within this 
         section are not content -->
 
-        <title> on the page tittle </title>
-        <meta name= "author" context= "Jihan Ibzagh Cervera">
-       
-        <!-- universal type set which covers almost all the characters 
+   <title> on the page tittle </title>
+   <meta name="author" content="Jihan Ibzagh Cervera">
+
+   <!-- universal type set which covers almost all the characters 
          and symbols in the world-->
-                https://www.w3schools.com/tags-meta.asp
-        <meta charset= 'utf-8'>
-      </head>
-      <body>
-         <!--header tags
+   https://www.w3schools.com/tags-meta.asp
+   <meta charset='utf-8'>
+</head>
+
+<body>
+   <!--header tags
          h1 thru h6 
          title text tags 
          h1 is the largest and h6 is the smallest 
          all of these tag have some built in formatting -->
-      <h1> Basic HTML tags </h1>
-      <h3> paragraph tag</h3>
-         <!-- this is the coding block for your context on your web page-->
-         <p>
-            the paragraph tag is a block tag. A block tag begins a new line 
-            in your displayed web page on the browser. the browser does NOT 
-            display your content in the physical style of how you have entered 
-            your code in your html file. hay que guardar los cambios en files
-            para que se vean en la pagina web. si quiero otro parrafo debo poner 
-            nuevas p:
-         </p>
-        <p> this is my second paragraph on the displayed browser page. It will start 
-            a new line.
-        </p>
-        <!--if you wish to use a component of a reversed tag (or the whole tag) you 
+   <h1> Basic HTML tags </h1>
+   <h3> paragraph tag</h3>
+   <!-- this is the coding block for your context on your web page-->
+   <p>
+      the paragraph tag is a block tag. A block tag begins a new line
+      in your displayed web page on the browser. the browser does NOT
+      display your content in the physical style of how you have entered
+      your code in your html file. hay que guardar los cambios en files
+      para que se vean en la pagina web. si quiero otro parrafo debo poner
+      nuevas p:
+   </p>
+   <p> this is my second paragraph on the displayed browser page. It will start
+      a new line.
+   </p>
+   <!--if you wish to use a component of a reversed tag (or the whole tag) you 
          would be in trouble just for using the tag
          you can use special character string to represent componenets of a tag such 
            as the < and the > symbol-->
-        <h3> List tags &ltol> and &ltul&gt</h3>
-        <!---->
-         <!-- create a ordered list, using ol tag
+   <h3> List tags &ltol> and &ltul&gt</h3>
+   <!---->
+   <!-- create a ordered list, using ol tag
              create an unordered list ul tag
              items in the list are li tag-->
 
-       <ol>
-            <li>add extension live server for Go Live</li>
-            <li>Close and reopen VS code</li>
-            <li>look at the bottom right corner on the  status line for go live</li>
-            <li>Alter your page and save the file (ctrl + S), your browser will automatically 
-               be updated</li>
-         
-         </ol>
+   <ol>
+      <li>add extension live server for Go Live</li>
+      <li>Close and reopen VS code</li>
+      <li>look at the bottom right corner on the status line for go live</li>
+      <li>Alter your page and save the file (ctrl + S), your browser will automatically
+         be updated</li>
 
-         <ul>
-            <li>this is an unordered list</li>
-            <li>default display is a bulleted list</li>
-            <li>we will see later how to remove these bullets</li>
-            
-            <!--This is an anchor tag often referred to ass the link tag
+   </ol>
+
+   <ul>
+      <li>this is an unordered list</li>
+      <li>default display is a bulleted list</li>
+      <li>we will see later how to remove these bullets</li>
+
+      <!--This is an anchor tag often referred to ass the link tag
                One should NOT used the term link tag because this is actually
                a <link> tag used in the <head> section
                  this tag can take you to a different location whether it 
@@ -81,10 +83,34 @@
                               target indicates the browser page display option
                                        default is same display page, _blank will
                                      use a new window tab-->
-            <h3> Anchor tag</h3>                         
-            <a href= " http://www.nait.ca" target="_blank"> go to Nait</a>
-         <ul>
-    </body>
-          
+      <h3> Anchor tag</h3>
+      <a href=" http://www.nait.ca" target="_blank"> go to Nait</a>
+
+      <!--another way to display an image is using the figure tag along
+                with the figcaption tag
+               the figure tag will indent your image while the figcaption
+                tag will allow you to place a text line with your image the figcaption 
+               tag is ocationally  -->
+
+      <figure> <img src="img/"></figure> aparece el folder donde esta la imagen
+      (video, FigCaption and anchor tag images) Example:
+
+      <figure> <img src="img/photoshop.jpg" alt="photoshop symbol"> title= "this is a tool-tip>
+         <figurecaption>Note where this caption text for the image appears.</figurecaption>
+      </figure>
+      Explica donde va el caption, si va antes o despues de imagen
+
+      <!--using an image anchor for your page-->
+      <a href="https://jibzagh1.dmitstudents.ca/html-tag-basics" target=_blank>
+         <img src="img/photoshop.jpg" alt="photoshop symbol" title="go to my web page">
+      </a>
+
+
+
+
+
+      <ul>
+</body>
+
 
 </html>
